@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Play - Wordle Game</title>
+    <style>
+        /* General styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .instruction-text {
+            font-size: 16px;
+            margin: 15px 0;
+        }
+
+        .wordle-example {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            margin: 10px 0;
+        }
+
+        .mini-cube {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .green { background-color: #6aaa64; color: white; }
+        .yellow { background-color: #c9b458; color: white; }
+        .gray { background-color: #787c7e; color: white; }
+        .white { background-color: white; color: black; }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">How to Play</div>
+        <div class="instruction-text">Guess the Wordle in 6 tries.</div>
+        <div class="instruction-text">Each guess must be a valid 5-letter word.</div>
+        <div class="instruction-text">The color of the letters will change to show how close your guess is to the word.</div>
+
+        <div class="instruction-text">Example 1:</div>
+        <div class="wordle-example">
+            <div class="mini-cube green">W</div>
+            <div class="mini-cube white">E</div>
+            <div class="mini-cube white">A</div>
+            <div class="mini-cube white">R</div>
+            <div class="mini-cube white">Y</div>
+        </div>
+        <div class="instruction-text">W is in the word and in the correct spot.</div>
+
+        <div class="instruction-text">Example 2:</div>
+        <div class="wordle-example">
+            <div class="mini-cube gray">P</div>
+            <div class="mini-cube yellow">I</div>
+            <div class="mini-cube white">L</div>
+            <div class="mini-cube white">L</div>
+            <div class="mini-cube white">S</div>
+        </div>
+        <div class="instruction-text">I is in the word but in the wrong spot.</div>
+
+        <div class="instruction-text">Example 3:</div>
+        <div class="wordle-example">
+            <div class="mini-cube gray">V</div>
+            <div class="mini-cube gray">A</div>
+            <div class="mini-cube gray">G</div>
+            <div class="mini-cube gray">U</div>
+            <div class="mini-cube gray">E</div>
+        </div>
+        <div class="instruction-text">U is not in the word in any spot.</div>
+
+        <div class="footer">
+            <span>Date: October 12, 2024</span>
+            <span>Number of users: 1000+</span>
+            <span>Edited by Shahzoda Abdullayeva</span>
+        </div>
+        <a href="Milstone4.2.html">
+            <button>Back to Game</button>
+        </a>
+    </div>
+</body>
+</html>

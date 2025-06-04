@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Text Display</title>
+</head>
+<body>
+    <h1>Display Text in Different Ways</h1>
+    <p id="demo"></p>
+
+    <script>
+        document.write("hello world ");
+        document.getElementById("demo").innerHTML = "HELLO world";
+        window.alter("hello world");
+        console.log("hello")
+
+    </script>
+
+<h1>Student Information</h1>
+<p id="studentInfo"></p>
+
+
+<script>
+    let student = {
+        name: "fotima",
+        surname: "shavkatova",
+        age: 12,
+        email: "shavkatova04@gmail.com",
+    };
+
+        document.getElementById("studentInfo").innerHTML =`
+        Name: ${student.name} ${student.surname}<br>
+        Age: ${student.age}<br>
+        Email: ${student.email}`;
+
+  
+</script>
+
+
+<h1>Arithmetic Operations</h1>
+<p id="arithmetic"></p>
+
+
+
+
+ <script>
+    let x =10;
+    let y =13;
+
+    let add= x+y;
+    let sub = x-y;
+    let mul = x*y;
+    let div = x/y;
+    let mod = x%y;
+    let inc = ++x;
+    let exp = x**y;
+
+    document.getElementById("arithmetic").innerHTML = `
+
+    Add: ${add}<br>
+    Sub: ${sub}<br>
+    Mul: ${mul}<br>
+    Div: ${div}<br>
+    Mod: ${mod}<br>
+    Inc: ${inc}<br>
+    Exp: ${exp}
+    `;
+
+ </script>
+
+<h1>Sum of Two Numbers</h1>
+<p id="sumResult"></p>
+
+
+
+<script>
+    function sum(x,y){
+        return x+y;
+    }
+    let res = sum(10,29);
+    document.getElementById("sumResult").innerHTML = ` Sum: ${res}`;
+</script>
+
+
+<h1>Average of Three Numbers</h1>
+    <p id="averageResult"></p>
+    <script>
+        function avger(x,y,z){
+            return  (x+y+z)/3;
+
+        };
+
+        let val = avger(10,2,3);
+        document.getElementById("averageResult").innerHTML = `Avg: ${val}`;
+
+    </script>
+
+
+</body>
+</html>
+
+
+   
+
+
+
+
+
+
+    
+
+
+
+
+
+
+

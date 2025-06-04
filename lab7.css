@@ -1,0 +1,127 @@
+       /* Basic styling for forms */
+       body {
+        font-family: sans-serif;
+    }
+
+    form {
+        width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    textarea,
+    select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+   /* Exercise 1 styling */
+.signup-form,
+.signin-form {
+    background-color: #f2f2f2; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 30px; 
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"],
+.signin-form input[type="text"],
+.signin-form input[type="email"],
+.signin-form input[type="password"] {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    padding: 12px; 
+    margin-bottom: 15px; 
+    transition: box-shadow 0.3s ease; 
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form input[type="password"]:focus,
+.signin-form input[type="text"]:focus,
+.signin-form input[type="email"]:focus,
+.signin-form input[type="password"]:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.6); 
+    outline: none;
+}
+
+.signup-form input[type="submit"],
+.signin-form input[type="submit"] {
+    background-color: #007bff; 
+    color: white; 
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.signup-form input[type="submit"]:hover,
+.signin-form input[type="submit"]:hover {
+    background-color: #0056b3; 
+}
+
+/* Exercise 3 styling */
+.report-form {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.report-form textarea {
+    resize: vertical;
+}
+
+/* Exercise 4 styling */
+.fieldset-form {
+    background-color: #e9ecef; 
+    padding: 25px; 
+    border-radius: 10px; 
+}
+
+.fieldset-form fieldset {
+    border: 1px solid #ddd; 
+    border-radius: 5px;
+    padding: 20px; 
+    margin-bottom: 20px; 
+}
+
+.fieldset-form legend {
+    font-size: 1.2em; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    background-color: #f0f0f0; 
+    border-radius: 5px; 
+}

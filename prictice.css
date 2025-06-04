@@ -1,0 +1,256 @@
+ /* .block span{
+    display: block;
+    color: blue;
+}
+.inline span{
+    display: inline;
+    color: aqua;
+}
+.block span{
+    position: absolute;
+}
+
+p{
+    overflow: scroll;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: antiquewhite;
+    
+}
+
+li {
+    display: block;
+    padding: 6px 16px;
+    color: #ba0e0e;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #a7a7a7;
+    color: white;
+}
+
+ .ul{
+    background-color: bisque;
+    overflow:auto;
+} 
+.ul a{ 
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ul a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.dropdown{
+
+    float: left;
+    overflow: hidden;
+
+} 
+
+.drop.drop{ 
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color:rgb(145, 176, 204);
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.dropdown-conenct {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-conenct a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}  
+
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b77474;
+  }
+  
+  li1 {
+    float: left;
+  }
+  
+  li1 a, .drop {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li1 a:hover, .dropdown:hover .drop {
+    background-color: rgb(225, 145, 145);
+    
+  }
+  
+  li1.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-conenct {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(197, 150, 150, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-conenct a {
+    color: rgb(43, 14, 14);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-conenct a:hover {background-color: #c09393;}
+  
+  .dropdown:hover .dropdown-conenct {
+    display: block;
+  }  
+
+
+
+
+
+    */
+
+
+body{
+  font-family: sans-serif;
+}
+
+form {
+  width: 200px;
+  padding: 50px;
+  margin:  auto;
+  border: 1px solid pink;
+  border-radius: 50px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+input[type="color"],
+input[type="date"]
+ {
+  background-color: rgb(255, 245, 231);
+  border: 1px solid pink;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 2s ease-out;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="color"]:focus,
+input[type="date"]:focus{
+ box-shadow: 0 0 7px plum;
+ outline: none;
+}
+
+input[type="submit"]{
+  background-color: rgb(255, 240, 221);
+  border: 1px solid pink;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover{
+  background-color:  rgb(247, 200, 247);
+  box-shadow: 0 0 10px plum;
+}
+
+
+/* input[type="radio"],
+input[type="message"],
+input[type="cars"]{
+background-color: antiquewhite;
+} */
+
+.f_form{
+  /* display:block; */
+  background-color: rgb(255, 255, 255); 
+  padding: 50px;
+  border-radius: 50px;
+  margin: 50px;
+
+}
+
+.f_form  {
+ border: 10px soild pink;
+ border-radius: 10px;
+ padding: 50px;
+ margin-bottom: 20px;
+}
+
+.f_form {
+  display:block;
+  font-size: large;
+  font-weight: bold; 
+ margin-left: 70px;
+  /* background-color: rgb(255, 255, 255); */
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+    

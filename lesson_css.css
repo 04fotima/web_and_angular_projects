@@ -1,0 +1,203 @@
+body{
+    font-family: sans-serif;
+    background-color: rgb(242, 215, 180);
+}
+ h1 {
+   font-style: italic;
+
+  
+}
+ img{
+      size: 10pt; 
+      width: 8%;
+   
+    
+      
+}
+ 
+ header{ 
+    background-color: #42281E;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+} 
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.item {
+    align-items: center;
+    
+}
+
+img {
+    size: 10pt;
+    width: 8%;
+    height: auto;
+    max-width: 100px;
+}
+
+
+.order-details, .customer-info {
+    background-color: #FDF5E6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    margin-top: 50px;
+    width: 45%;
+    
+   
+}
+
+.order-details {
+    float: left; 
+}
+
+.customer-info {
+    float: right; 
+    /* display: flex; */
+}
+
+footer {
+    background-color: #42281E;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 0 0 10px 10px; 
+    position: fixed;  
+    bottom: 0; 
+    width: 100%; 
+}
+.info-section {
+    margin-bottom: 20px;
+}
+
+.info-section h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.info-section input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Chegara yo'q */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #E8E0D6; /* Inputlarning fon rangi */
+    color: #42281E; /* Matn rangi */
+    font-size: 16px; /* Matn hajmi */
+    border-bottom: 2px solid #42281E; /* Pastki chegara */
+}
+
+.info-section input[type="text"]::placeholder {
+    color: #42281E; /* Placeholder matn rangi */
+    font-style: italic; /* Placeholder matn stilini italic qilish */
+}
+
+.card-number {
+    width: 100%;
+    padding: 10px;
+    border: none; /* Chegara yo'q */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #E8E0D6; /* Inputlarning fon rangi */
+    color: #42281E; /* Matn rangi */
+    font-size: 16px; /* Matn hajmi */
+    border-bottom: 2px solid #42281E; /* Pastki chegara */
+}
+
+.card-number::placeholder {
+    color: #42281E; /* Placeholder matn rangi */
+    font-style: italic; /* Placeholder matn stilini italic qilish */
+}
+
+.order-details {
+    /* ... boshqa xususiyatlar ... */
+    border-bottom: 2px solid #42281E; /* Pastki chegara */
+    width: 45%;
+
+}
+
+.order-details h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.item1, .item2, .item3, .item4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertical alignment */
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd; /* Har bir itemga chiziq qo'shish */
+}
+
+.item span {
+    font-size: 16px;
+    color: #42281E; /* Matn rangini o'zgartirish */
+    line-height: 1.5; /* Matnlar orasidagi bo'shliqni oshirish */
+}
+.name{
+    font-family: italic;
+    font-weight: bold;
+    display: flex;
+    
+}
+
+.details{
+    font-family: monospace;
+    display: flex;
+    
+}
+
+.quantity {
+    font-weight: bold; /* Quantity ni qalinlashtirish */
+    display: flex;
+    
+}
+.price{
+    display: flex;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.total span {
+    font-size: 16px;
+    color: #42281E; /* Matn rangini o'zgartirish */
+    line-height: 1.5; /* Matnlar orasidagi bo'shliqni oshirish */
+}
+
+.total span:first-child {
+    font-weight: bold; /* Total sarlavhasini qalinlashtirish */
+}
+
+.place-order {
+    /* ... boshqa xususiyatlar ... */
+    border: none; /* Chegara yo'q */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #E8E0D6; /* Inputlarning fon rangi */
+    color: #42281E; /* Matn rangi */
+    font-size: 16px; /* Matn hajmi */
+    border-bottom: 2px solid #42281E; /* Pastki chegara */
+}
+
+.place-order::placeholder {
+    color: #42281E; /* Placeholder matn rangi */
+    font-style: italic; /* Placeholder matn stilini italic qilish */
+}
